@@ -1,7 +1,7 @@
 # DynamicLabel3D
  Simple dynamic labels for a 3D Unity scene
  
-![dynamic_label_gif](https://github.com/SarahMit/DynamicLabel3D/Readme/main/GIF_DynamicLabels3D.gif)
+![dynamic_label_gif](Readme/GIF_DynamicLabels3D.gif)
 
 Labels are always facing towards the main camera. Line renderer is used to draw the line between two positions defined by game objects. To setup the scene, activate the mesh renderer of the Game Objects named `Target` and `Source`. Then you should be able to see two spheres that you can position freely in the scene. The line will be drawn between them.
 
