@@ -9,10 +9,10 @@ Labels are always facing towards the main camera. Line renderer is used to draw 
 
 ## Hierarchical Structure
 * Cube (Game Object you want to label)
- * Source (Line end pointing towards the cube)
- * Label Canvas (Canvas where the label text is drawn on)
-  * Text (Text of the label)
-   * Target (Line end pointing towards the label)
+    * Source (Line end pointing towards the cube)
+    * Label Canvas (Canvas where the label text is drawn on)
+        * Text (Text of the label)
+            * Target (Line end pointing towards the label)
 
 ## Important Notes
 * The cube has a rotation script attached to it so you can rotate it using the mouse (click & drag).
